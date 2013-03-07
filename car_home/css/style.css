@@ -1,0 +1,49 @@
+@charset "utf-8";
+#header,#cont{ width:960px; margin:0 auto;}
+#wap{ position:relative; width:960px; margin:0 auto;}
+#header{background:url(../images/top_bg.jpg) repeat-x; height:68px; padding:9px 16px 0px 16px; width:928px;position:absolute; top:0px;}
+#cont{ position:relative; top:85px;}
+/*header.css头部样式*/
+#header h1{ float:left;}
+#header .top_right{ float:right; height:100%;}
+#header .top_right #top_span{ height:35px; width:100%;}
+#header .top_right span{ float:left; margin:0px 10px; display:inline;}
+#header .top_right span a{ color:#000000; font-weight:800; text-decoration:none;}
+#header .top_right a{ margin:0px 5px;}
+#header .top_right ul{width:100%;position:relative;}
+#header .top_right ul li{ float:left; line-height:33px; height:33px; padding:0px 2px; width:auto; margin-right:5px;display:inline; text-align:center;  }
+#header .top_right ul li h2{font-weight:800;}
+#header .top_right ul li a{background:url(../images/but_bg.gif) no-repeat; width:90px; height:33px; display:block; color:#0047A8; font-size:14px;  text-decoration:none; margin:0px;position:relative; top:0px;}
+#header .top_right ul li a:hover,.top_right ul li a#ac{ background:url(../images/but_hover.gif) no-repeat; width:104px; height:50px;  color:#010409; position:relative; top:-5px;}
+/*cont.css中间样式*/
+#cont .left{ float:left; width:137px; border-right:1px solid #C7C7C7; height:536px; background:#F6F6F6; margin-top:-10px; position:relative; z-index:100;}
+#cont .left ul{ width:100%; font-size:14px; margin-top:5px;}
+#cont .left ul li{ text-align:center; height:39px; line-height:39px;}
+#cont .left ul li h2{ color:#000000; font-size:15px; font-weight:800;}
+#cont .left ul li a,.left ul li h2{ background:url(../images/li_a.jpg) no-repeat 0px 0px; width:137px; height:39px; float:left; text-align:center;}
+#cont .left ul li a:hover,.left ul li a#active{ background:url(../images/li_a.jpg) 0px -40px; color:#000000; font-weight:800; text-decoration:none;}
+
+#cont .right{ float:right; margin-right:5px; display:inline;}
+#cont .right .top{ background:url(../images/h2_bg.jpg) repeat-x; height:30px; width:785px; border:1px solid #CBCBCB; margin:10px 0px 5px 0px; line-height:30px; padding:0px 10px;}
+#cont .right .top h2{ font-size:16px; color:#000000; font-weight:800; width:auto; float:left;}
+#cont .right .top input{ float:right; margin-top:5px; display:inline;}
+#cont .right .bottom{ clear:both;background:url(../images/bom.jpg) repeat-x; height:28px;width:805px; border:1px solid #CBCBCB; text-align:center; line-height:28px;}
+#cont .right .bottom span{ background:url(../images/biao.gif) right no-repeat; padding-right:20px;}
+#cont .right .bottom span a{ font-size:14px;}
+#cont .right  table{ margin:5px 0px; width:805px;}
+#cont .right  table tr#title{ background:#5F5F5F;  height:25px; line-height:25px;}
+#cont .right  table th{color:#FFFFFF;font-weight:800;  text-align:center;}
+#cont .right  table tr{ height:30px; line-height:30px;}
+#cont .right  table td{ text-align:center; line-height:30px;}
+#cont .right  table #name{ width:80px; text-align:center;  white-space:nowrap; text-overflow: ellipsis; -o-text-overflow: ellipsis; overflow:hidden;margin:0 auto;}
+#cont .right  table td#bgf5:not(p) {clear: both;width:auto; margin:0 auto; text-align:center; }
+#cont .right  table td#bgf5:not(p) #name{float: left;width: 78px;text-align:center;margin:0 auto;} 
+#cont .right  table td#bgf5:not(p):after {content: "..."; float: left;color: #999;text-align:center;}
+
+
+#cont .right  table td#no{ font-weight:800;}
+#cont .right  table td#bgf5,td#green,td#red{ background:#F5F5F5; text-align:center;}
+#cont .right  table td#green{ color:#016100; font-weight:800;}
+#cont .right  table td#red{color:#E10000; font-weight:800;}
+#cont .right  table td#pro span{ float:left; margin-left:10px; display:inline;}
+#cont .right  table td#pro div{height:8px; background:#FE7100; float:left; margin-top:10px; display:inline; margin-left:5px; overflow:hidden;}
