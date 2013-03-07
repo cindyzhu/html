@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>礼品页</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<link href="css/page.css" rel="stylesheet" type="text/css" />
+<script src="js/index.js" language="javascript"></script>
+<style type="text/css">
+#goods_out{ top:0; left:0;width:100%; height:100%;filter:alpha(Opacity=40);-moz-opacity:0.5;opacity: 0.5;background-color:#000; z-index:2; display:none;position:fixed;_position:absolute;_height:900px;}
+#goods_cont{ width:703px; height:320px; top:25%; left:15%; z-index:100; background:#FFFFFF; position:fixed; border:4px solid #B9B8B8; background:url(images/goods_bg.jpg) repeat-x; display:none;_position:absolute;}
+#goods_cont table{ width:98%; height:292px; line-height:24px; }
+#goods_cont table img{ border:1px solid #E0E0DF; margin-top:10px;}
+</style>
+</head>
+
+<body>
+<!--阴影层-->
+<div id="goods_out"></div>
+<div id="header">
+  <div class="top">
+    <h1 class="logo left"><a href="#" title="#"><img src="images/logo.gif" alt="#" title="#" /></a></h1>
+    <div class="searchbox right">
+      <form action="" method="get">
+        <input name="" type="text" class="t_input" value="--输入查询信息--" />
+        <input type="image" src="images/button_search.gif" class="ml10" />
+        <a href="#" title="#" class="blue ml10 underline">登录</a>
+      </form>
+    </div>
+  </div>
+  <div id="nav">
+    <ul>
+      <li><a href="#" title="#" class="active"><span>首页</span></a></li>
+      <li><a href="#" title="#"><span>关于太保</span></a></li>
+      <li><a href="#" title="#"><span>部门主页</span></a></li>
+      <li><a href="#" title="#"><span>电话查询</span></a></li>
+      <li><a href="#" title="#"><span>办公自助</span></a></li>
+      <li><a href="#" title="#"><span>网络资源列表</span></a></li>
+      <li><a href="#" title="#"><span>我的淘宝</span></a></li>
+      <li><a href="#" title="#"><span>太家园</span></a></li>
+    </ul>
+    <div class="clear"></div>
+    <p class="subnav"><a href="#" title="#">·二级子栏目</a><a href="#" title="#">·二级子栏目</a><a href="#" title="#">·二级子栏目</a><a href="#" title="#">·二级子栏目</a></p>
+  </div>
+</div>
+<div id="page_cont">
+		<div id="goods_left">
+        <div id="tag"><span>当前位置:<a href="#">首页</a>><a href="#">礼品中心</a></span>
+        <form name="form1" method="post" action="">
+<select name="select" id="select">
+  <option value="12">1</option>
+</select>
+<input type="text" name="textfield" id="textfield" value="— —输入礼品名称— —" onFocus="if (this.value==this.defaultValue) this.value='';" onBlur="if (this.value=='') this.value=this.defaultValue;"/>
+<input type="submit" name="button" id="sub" value="" /></form></div>
+		<dl>
+       	  <dt><img src="images/pic.jpg"  width="120" height="90"/></dt>
+          <dd>
+            	<ul>
+                	<li id="orange">名称：礼品名称</li>
+                    <li id="blue">价格：￥120</li>
+                    <li>此处为礼品简介此处为礼品简介</li>
+                    <li id="zoom"><a href="#" onclick="show_pic('goods_out','goods_cont')">查看大图</a></li>
+                </ul>
+          </dd>
+        </dl>
+        <div id="goods_cont">
+		    <table width="98%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="60%" rowspan="2" valign="middle"><img src="images/goods_pic.jpg" width="400" height="300"/></td>
+                <td width="40%" valign="top">
+                  <p><img src="images/close.jpg" align="right" onclick="show_close('goods_out','goods_cont')"/></p>
+                  <p><br /><font color="#FF0000">礼品名称：加湿器</font><br />
+                    <font color="#0000FF">礼品价格：￥120</font> </p><p style="text-indent:24px;">礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介礼品简介</p></td>
+            </tr>
+            </table>
+        </div>
+  <dl>
+        	<dt><img src="images/pic.jpg"  width="120" height="90"/></dt>
+            <dd>
+            	<ul>
+                	<li id="orange">名称：礼品名称</li>
+                    <li id="blue">价格：￥120</li>
+                    <li>此处为礼品简介此处为礼品简介</li>
+                    <li id="zoom"><a href="#">查看大图</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl>
+        	<dt><img src="images/pic.jpg"  width="120" height="90"/></dt>
+            <dd>
+            	<ul>
+                	<li id="orange">名称：礼品名称</li>
+                    <li id="blue">价格：￥120</li>
+                    <li>此处为礼品简介此处为礼品简介</li>
+                    <li id="zoom"><a href="#">查看大图</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl>
+        	<dt><img src="images/pic.jpg"  width="120" height="90"/></dt>
+            <dd>
+            	<ul>
+                	<li id="orange">名称：礼品名称</li>
+                    <li id="blue">价格：￥120</li>
+                    <li>此处为礼品简介此处为礼品简介</li>
+                    <li id="zoom"><a href="#">查看大图</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl>
+        	<dt><img src="images/pic.jpg"  width="120" height="90"/></dt>
+            <dd>
+            	<ul>
+                	<li id="orange">名称：礼品名称</li>
+                    <li id="blue">价格：￥120</li>
+                    <li>此处为礼品简介此处为礼品简介</li>
+                    <li id="zoom"><a href="#">查看大图</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl>
+        	<dt><img src="images/pic.jpg"  width="120" height="90"/></dt>
+            <dd>
+            	<ul>
+                	<li id="orange">名称：礼品名称</li>
+                    <li id="blue">价格：￥120</li>
+                    <li>此处为礼品简介此处为礼品简介</li>
+                    <li id="zoom"><a href="#">查看大图</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl>
+        	<dt><img src="images/pic.jpg"  width="120" height="90"/></dt>
+            <dd>
+            	<ul>
+                	<li id="orange">名称：礼品名称</li>
+                    <li id="blue">价格：￥120</li>
+                    <li>此处为礼品简介此处为礼品简介</li>
+                    <li id="zoom"><a href="#">查看大图</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl>
+        	<dt><img src="images/pic.jpg"  width="120" height="90"/></dt>
+            <dd>
+            	<ul>
+                	<li id="orange">名称：礼品名称</li>
+                    <li id="blue">价格：￥120</li>
+                    <li>此处为礼品简介此处为礼品简介</li>
+                    <li id="zoom"><a href="#">查看大图</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl>
+        	<dt><img src="images/pic.jpg"  width="120" height="90"/></dt>
+            <dd>
+            	<ul>
+                	<li id="orange">名称：礼品名称</li>
+                    <li id="blue">价格：￥120</li>
+                    <li>此处为礼品简介此处为礼品简介</li>
+                    <li id="zoom"><a href="#">查看大图</a></li>
+                </ul>
+            </dd>
+        </dl>
+        <dl>
+        	<dt><img src="images/pic.jpg"  width="120" height="90"/></dt>
+            <dd>
+            	<ul>
+                	<li id="orange">名称：礼品名称</li>
+                    <li id="blue">价格：￥120</li>
+                    <li>此处为礼品简介此处为礼品简介</li>
+                    <li id="zoom"><a href="#">查看大图</a></li>
+                </ul>
+            </dd>
+        </dl>
+  </div>
+        <div id="goods_right">
+       	  <div class="rem_goods">
+                <p><span>推荐礼品</span><a href="#">更多</a></p>
+                <div class="rem_cont">
+                 <ul>
+                 <li id="pic"><img src="images/pic2.jpg"  width="90" height="70"/></li>
+                 <li><a href="#">礼品名称</a></li>
+                </ul>
+                 <ul>
+                 <li id="pic"><img src="images/pic2.jpg"  width="90" height="70"/></li>
+                 <li><a href="#">礼品名称</a></li>
+                </ul>
+                 <ul>
+                 <li id="pic"><img src="images/pic2.jpg"  width="90" height="70"/></li>
+                 <li><a href="#">礼品名称</a></li>
+                </ul>
+                 <ul>
+                 <li id="pic"><img src="images/pic2.jpg"  width="90" height="70"/></li>
+                 <li><a href="#">礼品名称</a></li>
+                </ul>
+                </div>
+          </div>
+            <div class="rem_goods">
+                <p><span>热门礼品</span><a href="#">更多</a></p>
+                <div class="rem_cont">
+                 <ul>
+                 <li id="pic"><img src="images/pic2.jpg"  width="90" height="70"/></li>
+                 <li><a href="#">礼品名称</a></li>
+                </ul>
+                 <ul>
+                 <li id="pic"><img src="images/pic2.jpg"  width="90" height="70"/></li>
+                 <li><a href="#">礼品名称</a></li>
+                </ul>
+                 <ul>
+                 <li id="pic"><img src="images/pic2.jpg"  width="90" height="70"/></li>
+                 <li><a href="#">礼品名称</a></li>
+                </ul>
+                 <ul>
+                 <li id="pic"><img src="images/pic2.jpg"  width="90" height="70"/></li>
+                 <li><a href="#">礼品名称</a></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+</div>
+<div id="footer">
+  <p><a href="#" title="#">联系我们</a> | <a href="#" title="#">法律声明</a> | <a href="#" title="#">关于我们</a> | <a href="#" title="#">网站地图</a></p>
+  <p>Copyright &copy; China Pacific Insurance(group) Co.,Ltd.. All Rights Reserved 京ICP备00000000 </p>
+</div>
+</body>
+</html>

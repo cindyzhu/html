@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+#wap{ width:720px; height:567px; background:url(../images/bg.jpg) repeat-x; margin:0 auto;}
+#header,#footer{ width:720px; margin:0 auto;}
+li.top_dh,li.top_dh span,ul.nav li#active,li#active span,#footer .but,#footer .but span,ul#lf li#act,.ico{ background:url(../images/ico.png);background-repeat:no-repeat;}
+h2{color:#323232; font-weight:800;}
+h3{ color:#fff; margin:10px auto ;}
+h1{ color:#FFFFFF; font-size:20px;}
+#header{ font-weight:800; float:left; margin-bottom:10px;}
+ ul.top{ width:720px; height:60px;} 
+ ul.top li{}
+ ul.top  li.time{ width:174px; padding-top:30px;  padding-left:30px; float:left;height:20px; margin-top:5px;}
+ ul.top li.top_dh,#footer .but{ background-position:0px 0px; width:297px; height:38px; float:left; text-align:center; line-height:38px; cursor:pointer;}
+ ul.top li.top_dh h2,#footer .but h2{ float:left; padding-left:110px;}
+ ul.top li.top_dh span{ float:right;background-position:0px -41px; width:21px; height:38px; }
+ ul.top  li.weather{ float:right; width:auto; margin-right:5px;margin-top:5px; display:inline;padding-top:10px;height:40px; }
+ 
+ ul.nav{ width:504px; margin:0 auto;}
+ ul.nav li{ float:left; line-height:42px;cursor:pointer;width:126px;text-align:center; height:42px; }
+ ul.nav li#active{ background-position:-70px -41px;color:#000;}
+ ul.nav li a{ font-size:14px; color:#fff;}
+ .main_left,.main_right{border:1px solid #206398;height:410px;display:inline; text-align:center;}
+ .main_left{width:425px;float:left; background-color:#72A4C9; margin:0px 10px; font-size:12px; padding:0px 29px; color:#DEE7F0;}
+ .main_right{ width:203px; float:right; background-color:#6E9FC7; margin-right:10px;}
+ ul.main_left li{ float:left; margin:8px 10px; display:inline; width:50px; cursor:pointer;}
+ ul.main_left li img{ margin-bottom:8px;}
+ ul.main_left li a{ font-size:12px; color:#DBE8F1;}
+ ul.main_right li{  float:left;margin:5px 10px; height:60px; display:inline; cursor:pointer;}
+ 
+ /*list.css*/
+ .main,.yx_main{border:1px solid #1C5F96;height:410px; text-align:center; width:690px; background-color:#73A5CA; clear:left; margin:0 auto;}
+ ul.main li{ float:left; margin:10px 45px; display:inline; width:76px; cursor:pointer;}
+ ul.main li img{ margin-bottom:8px;}
+ ul.main li a{ font-size:14px; color:#DBE8F1; font-weight:800; line-height:20px;}
+/*tgyx.css*/ 
+ .yx_main{ height:372px; padding:40px 25px; width:640px; text-align:left; line-height:24px;}
+    ul#lf{ width:95px; float:left; margin-top:40px;}
+ 	ul#lf li{ width:100%; line-height:40px; font-weight:800; font-size:12px;}
+    ul#lf li#act{ background-position:-324px 0px; width:91px; height:37px;_height:35px; overflow:hidden; text-align:left; margin-left:-1px;}
+    ul#lf li#act a{color:#8B8B8B; margin-left:10px; display:inline;}
+    .yx_right{ width:540px; float:right; height:385px; overflow:hidden;_height:365px; }
+	.yx_right .ico{ background-position: -434px 0px; width:40px; height:49px;_height:44px; margin-right:-1px; position:relative; top:110px; z-index:100; float:left;}
+ .yx_main ul.list{ border:1px solid #ADC9E0;background:url(../images/yx_bg.jpg) repeat-x; height:367px; width:500px; float:right; position:relative; top:-40px;}
+ .yx_main ul.list li{ margin:16px 20px; float:left; display:inline;}
+.yx_main dl{ float:left; display:inline; width:100%;}
+.yx_main dt{ float:left;}
+.yx_main dd{ float:left; margin:0px 10px; display:inline; text-align:left; line-height:25px;}
+.yx_main dd#rt{ float:right;width:160px;}
+.yx_main dd h3{ font-weight:800; margin:0px 10px; text-align:left;}
+.yx_main dd p{ font-size:14px; font-weight:800; color:#333;margin:0px 5px;}
+.yx_main dd a{ display:inline-block; width:56px; height:23px; background:url(../images/a_bg.gif);line-height:24px; margin:0px 5px; font-size:12px; text-align:center; }
+.yx_main dd .pj{height:15px; margin:28px 5px 0px 5px;}
+.pj .good,.pj .bad{ width:16px; height:15px; float:left; margin:0px 2px;overflow:hidden;}
+.pj .good{ background:url(../images/good.gif);}
+.pj .bad{background:url(../images/bad.gif);}
+.yx_main h2{ clear:left;color:#FFFFFF; font-size:14px; padding-top:15px; _margin-top:-40px;}
+#page{ clear:both;width:100%; margin:0 auto;text-align:center; display:inline-block;}
+#page a{ padding:0px 10px; line-height:24px; display:inline; height:24px;}
+#page a#active{ color:#000000;}
+ #footer{ clear:both; margin-top:10px; float:left;_margin-top:14px;}
+ #footer .but{background-position:-209px -49px; width:259px; height:37px; margin:0 auto; float:none;}
+ #footer .but span{background-position:-41px -42px; width:20px; height:33px; float:right;}
+ 
+

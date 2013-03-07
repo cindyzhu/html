@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/job_index.css" rel="stylesheet" type="text/css" />
+<script language="javascript">
+	function $(id) {
+		return document.getElementById(id);
+	}
+	function show(id,other,gb,old)
+	{
+		$(id).style.display="block";
+		$(gb).className="active";
+		$(other).style.display="none";
+		$(old).className=" ";
+	}
+</script>
+</head>
+
+<body>
+<div id="job_header"><img src="images/header.jpg" width="961" height="105" /></div>
+<div id="job_cont">
+	<div class="top_left">
+    	<div class="jb_login" id="bg">
+       	  <form id="form1" name="form1" method="post" action="">
+          	 <dl id="login">
+              <dt>
+                  <img src="images/pic1.jpg" width="53" height="55" />
+                </dt>
+				<dd>
+				    你好，普通用户。
+				</dd>
+                <dd>您属于：<font color="#FF6600">个人用户</font></dd>
+                 <dd><a href="#">修改个人资料</a></dd>
+                 <dd><a href="#">查看申请职位</a></dd>
+             </dl>
+             <div class="lj"><a href="index.php?m=member">进入个人后台</a>&nbsp;&nbsp;<a href="index.php?m=user&a=logout">退出</a></div>
+          </form>
+        </div>
+        <div class="jb_zc" id="bg">
+        	<a href="#"><img src="images/zp_src.gif" width="158" height="37"/></a>
+            <a href="#"><img src="images/qz_src.gif" width="158" height="38"/></a>
+        </div>
+       <div class="zhc">
+       		 <div class="zc_top" id="bg"><h2><b><span>职场</span>热点</b></h2><a href="#">更多>></a></div>
+             
+             <ul class="txt" id="zc">
+                <li>
+                	<p><span id="hot">头条新闻头条新闻头条新闻头条新闻</span>
+             	<span id="txt_xx">头条新闻头条新闻头条新闻头条新闻头条新闻头条新闻头条新闻头条新闻头条新闻头条新闻头条新闻头条新闻头条新闻头条新<a href="#">查看详情</a></span>
+             </p>
+                </li>
+                <li id="bg"><a href="#">职场热点显示中职场热点显示中职场热点显示中职场热点显示中</a><span>2011-12-30</span></li>
+                <li id="bg"><a href="#">职场热点显示中职场热点显示中职场热点显示中职场热点显示中</a><span>2011-12-30</span></li>
+                <li id="bg"><a href="#">职场热点显示中职场热点显示中职场热点显示中职场热点显示中</a><span>2011-12-30</span></li>
+                 <li id="bg"><a href="#">职场热点显示中职场热点显示中职场热点显示中职场热点显示中</a><span>2011-12-30</span></li>
+                  <li id="bg"><a href="#">职场热点显示中职场热点显示中职场热点显示中职场热点显示中</a><span>2011-12-30</span></li>
+                   <li id="bg"><a href="#">职场热点显示中职场热点显示中职场热点显示中职场热点显示中</a><span>2011-12-30</span></li>
+             </ul>
+             <div class="zc_botoom" id="bg"></div>
+       </div>
+       
+    </div>
+    <div class="top_right">
+   	  <div class="search">
+       	<ul>
+       	  <li class="active" id="qw" onclick="show('all','zw','qw','zm')" >全文</li>
+                <li onclick="show('zw','all','zm','qw')"  id="zm">职位名称</li>
+                <li id="sear"><a href="#">高级搜索>></a><a href="#">地位搜索>></a></li>
+        </ul>
+            <form id="form2" name="form2" method="post" action="">
+              <input type="text" name="textfield2" id="all" value=""/>
+              <input type="text" name="textfield2" id="zw" value="" style="display:none;"/>
+              <input type="button" name="button2" id="diqu_so" value="" />
+              <input type="submit" name="button2" id="soso" value="" />
+            </form>
+        </div>
+       <div class="dq">
+       		<h2>地区招聘</h2>
+            <ul>
+            	<li><a href="#">北京</a></li><li><a href="#">上海</a></li><li><a href="#">北京</a></li><li><a href="#">北京</a></li><li><a href="#">上海</a></li><li><a href="#">北京</a></li><li><a href="#">北京</a></li><li><a href="#">上海</a></li><li><a href="#">北京</a></li>
+                <li><a href="#">北京</a></li><li><a href="#">上海</a></li><li><a href="#">北京</a></li><li><a href="#">北京</a></li><li><a href="#">上海</a></li><li><a href="#">北京</a></li><li><a href="#">北京</a></li><li><a href="#">上海</a></li><li><a href="#">北京</a></li>
+            </ul>
+       </div>
+       <div class="mq">
+         	<h2 id="bg">名企招聘</h2>
+            <ul>
+            	<li><a href="#"><img src="images/pic.jpg" width="144"  height="56"/></a></li>
+                <li><a href="#"><img src="images/pic.jpg" width="144"  height="56"/></a></li>
+                <li><a href="#"><img src="images/pic.jpg" width="144"  height="56"/></a></li>
+                <li><a href="#"><img src="images/pic.jpg" width="144"  height="56"/></a></li>
+                <li><a href="#"><img src="images/pic.jpg" width="144"  height="56"/></a></li>
+                <li><a href="#"><img src="images/pic.jpg" width="144"  height="56"/></a></li>
+                <li><a href="#"><img src="images/pic.jpg" width="144"  height="56"/></a></li>
+                <li><a href="#"><img src="images/pic.jpg" width="144"  height="56"/></a></li>
+                <li><a href="#"><img src="images/pic.jpg" width="144"  height="56"/></a></li>
+            </ul>
+            <div class="mq_bom" id="bg"></div>
+       </div>
+    </div>
+    <div class="ad"><img src="images/ad.jpg" width="947" height="63"/></div>
+    <div class="zxzp">
+    	<h2>官方推荐</h2>
+        <ul>
+        	<li><span>[广东-深圳]</span><a href="#">深圳市网策科技有限公司</a></li>
+            <li id="blue">诚聘：PHP程序员</li>
+            <li id="orange">截止日期：2011-12-31</li>
+        </ul>
+         <ul>
+        	<li><span>[广东-深圳]</span><a href="#">深圳市网策科技有限公司</a></li>
+            <li id="blue">诚聘：PHP程序员</li>
+            <li id="orange">截止日期：2011-12-31</li>
+        </ul>
+         <ul>
+        	<li><span>[广东-深圳]</span><a href="#">深圳市网策科技有限公司</a></li>
+            <li id="blue">诚聘：PHP程序员</li>
+            <li id="orange">截止日期：2011-12-31</li>
+        </ul>
+         <ul>
+        	<li><span>[广东-深圳]</span><a href="#">深圳市网策科技有限公司</a></li>
+            <li id="blue">诚聘：PHP程序员</li>
+            <li id="orange">截止日期：2011-12-31</li>
+        </ul>
+         <ul>
+        	<li><span>[广东-深圳]</span><a href="#">深圳市网策科技有限公司</a></li>
+            <li id="blue">诚聘：PHP程序员</li>
+            <li id="orange">截止日期：2011-12-31</li>
+        </ul>
+         <ul>
+        	<li><span>[广东-深圳]</span><a href="#">深圳市网策科技有限公司</a></li>
+            <li id="blue">诚聘：PHP程序员</li>
+            <li id="orange">截止日期：2011-12-31</li>
+        </ul>
+         <ul>
+        	<li><span>[广东-深圳]</span><a href="#">深圳市网策科技有限公司</a></li>
+            <li id="blue">诚聘：PHP程序员</li>
+            <li id="orange">截止日期：2011-12-31</li>
+        </ul>
+         <ul>
+        	<li><span>[广东-深圳]</span><a href="#">深圳市网策科技有限公司</a></li>
+            <li id="blue">诚聘：PHP程序员</li>
+            <li id="orange">截止日期：2011-12-31</li>
+        </ul>
+         <ul>
+        	<li><span>[广东-深圳]</span><a href="#">深圳市网策科技有限公司</a></li>
+            <li id="blue">诚聘：PHP程序员</li>
+            <li id="orange">截止日期：2011-12-31</li>
+        </ul>
+         <ul>
+        	<li><span>[广东-深圳]</span><a href="#">深圳市网策科技有限公司</a></li>
+            <li id="blue">诚聘：PHP程序员</li>
+            <li id="orange">截止日期：2011-12-31</li>
+        </ul>
+         <ul>
+        	<li><span>[广东-深圳]</span><a href="#">深圳市网策科技有限公司</a></li>
+            <li id="blue">诚聘：PHP程序员</li>
+            <li id="orange">截止日期：2011-12-31</li>
+        </ul>
+         <ul>
+        	<li><span>[广东-深圳]</span><a href="#">深圳市网策科技有限公司</a></li>
+            <li id="blue">诚聘：PHP程序员</li>
+            <li id="orange">截止日期：2011-12-31</li>
+        </ul>
+    </div>
+     <div class="zxgs2">
+       		 <div id="zc_topul"><h2><b><span>最新</span>公司</b></h2></div>
+             <ul class="txt" id="zsgs_ul2">
+             	<li><h2>[浙江-杭州]</h2><span><a href="#">杭州乐悠悠网络杭州乐悠悠网络有限公司</a></span></li>
+                <li><h2>[浙江-杭州]</h2><span><a href="#">杭州乐悠悠网络杭州乐悠悠网络有限公司</a></span></li>
+                <li><h2>[浙江-杭州]</h2><span><a href="#">杭州乐悠悠网络杭州乐悠悠网络有限公司</a></span></li>
+                <li><h2>[浙江-杭州]</h2><span><a href="#">杭州乐悠悠网络杭州乐悠悠网络有限公司</a></span></li>
+                <li><h2>[浙江-杭州]</h2><span><a href="#">杭州乐悠悠网络杭州乐悠悠网络有限公司</a></span></li>
+       <li><h2>[浙江-杭州]</h2><span><a href="#">杭州乐悠悠网络杭州乐悠悠网络有限公司</a></span></li>           
+              
+             </ul>
+             <div class="zcgs_botoom2" id="bg"></div>
+     </div>
+        <div class="zxgs2" style=" margin:5px 15px;_margin:5px 5px;">
+       		 <div id="zc_topul" ><h2><b><span>最新</span>招聘</b></h2></div>
+             <ul class="txt" id="zsgs_ul2">
+             	<li><h2>[浙江-杭州]</h2><span><a href="#">杭州乐悠悠网络杭州乐悠悠网络有限公司</a></span></li>
+                <li><h2>[浙江-杭州]</h2><span><a href="#">杭州乐悠悠网络杭州乐悠悠网络有限公司</a></span></li>
+                <li><h2>[浙江-杭州]</h2><span><a href="#">杭州乐悠悠网络杭州乐悠悠网络有限公司</a></span></li>
+                <li><h2>[浙江-杭州]</h2><span><a href="#">杭州乐悠悠网络杭州乐悠悠网络有限公司</a></span></li>
+                <li><h2>[浙江-杭州]</h2><span><a href="#">杭州乐悠悠网络杭州乐悠悠网络有限公司</a></span></li>
+       <li><h2>[浙江-杭州]</h2><span><a href="#">杭州乐悠悠网络杭州乐悠悠网络有限公司</a></span></li>           
+              
+             </ul>
+     </div>
+     <div class="zxgs2">
+       		 <div id="zc_topul"><h2><b>求职<span>攻略</span></b></h2></div>
+             <ul class="txt" id="qzgl_ul">
+             	<li id="bg"><a href="#">职场热点显示中职场热示中职场热点显示中</a></li>
+                <li id="bg"><a href="#">职场热点显示中职场热显示中职场热点显示中</a></li>
+                <li id="bg"><a href="#">职场热点显示中职场热点显职场热点显示中</a></li>
+                <li id="bg"><a href="#">职场热点显示中职场热点显中职场热点显示中</a></li>
+                <li id="bg"><a href="#">职场热点显示中职场热点显示场热点显示中</a></li>
+                <li id="bg"><a href="#">职场热点显示中职场热显示中职场热点显示中</a></li>
+             </ul>
+     </div>
+     <div class="zxgs">
+       		 <div class="zc_top" id="bg"><b><span id="green">校园合作</span></div>
+             <ul class="img" id="zsgs_ul">
+             	<li class="xy" id="bg"><a href="#"><img src="images/pic3.jpg" width="137" height="55" align="absmiddle"/></a></li>
+                <li class="xy" id="bg"><a href="#"><img src="images/pic3.jpg" width="137" height="55"/></a></li>
+                	<li class="xy" id="bg"><a href="#"><img src="images/pic3.jpg" width="137" height="55"/></a></li>
+                <li class="xy" id="bg"><a href="#"><img src="images/pic3.jpg" width="137" height="55"/></a></li>
+             </ul>
+             <div class="zcgs_botoom" id="bg"></div>
+     </div>
+     <div class="zxgs" style="margin:0px; float:right;">
+       		 <div class="zc_top" id="bg"><b><span id="org">实习生招聘</span></b></div>
+             <ul class="img" id="zsgs_ul">
+             	<li><a href="#"><img src="images/pic2.jpg" width="137" height="62"/></a></li>
+                <li><a href="#"><img src="images/pic2.jpg" width="137" height="62"/></a></li>
+                <li><a href="#"><img src="images/pic2.jpg" width="137" height="62"/></a></li>
+                <li><a href="#"><img src="images/pic2.jpg" width="137" height="62"/></a></li>
+                <li><a href="#"><img src="images/pic2.jpg" width="137" height="62"/></a></li>
+                <li><a href="#"><img src="images/pic2.jpg" width="137" height="62"/></a></li>
+             </ul>
+             <div class="zcgs_botoom" id="bg"></div>
+     </div>
+</div>
+<div id="job_footer"><img src="images/footer.gif" /></div>
+</body>
+</html>

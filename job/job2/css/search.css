@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+#header,#sear_cont,#footer{ width:960px; margin:0 auto;}
+#sear_cont .sear{ width:948px; background:url(../images/search_bg.jpg) repeat-x; height:79px; border:1px solid #E1E1E1; margin:5px 0px; padding:5px;}
+#sear_cont .sear form{ width:946px; background-color:#FFFFFF; border:1px solid #F1F1F1; font-size:12px; color:#666666;height:69px; padding-top:10px; line-height:30px;}
+#sear_cont .sear form label{ margin:0px 7px; float:left; display:inline;}
+#sear_cont .sear form label input{ margin-top:7px;_margin-top:0px;}
+#sear_cont .sear form span{ float:right; }
+#sear_cont .sear form span input{ background:url(../images/subut.gif) no-repeat; width:82px; height:29px; border:0px;margin-top:-20px; margin-right:50px; position:relative; line-height:29px;}
+#sear_cont .con_left,.con_right{border:1px solid #D5D5D5;height:498px;}
+#sear_cont .con_left{ float:left;width:238px;  }
+#sear_cont .con_left h2{width:228px; background:url(../images/dh_bg.jpg) repeat-x; height:25px; font-size:12px; line-height:26px; border-bottom:1px solid #D5D5D5; padding-left:10px; color:#003366;}
+#sear_cont .con_left h2 span{ background:url(../images/biao1.gif) no-repeat; padding-left:15px; float:left; display:inline; line-height:16px; margin-top:5px;}
+#sear_cont .con_left h2#job{ margin-top:5px; border:1px solid #D5D5D5;width:228px; margin-left:-1px;}
+#sear_cont .con_left h2 a{float:right; color:#333333; margin-right:10px;}
+#sear_cont .con_left ul{ width:90%; font-size:12px; margin:5px auto;}
+#sear_cont .con_left ul li{ line-height:24px;}
+#sear_cont .con_left ul li span{ margin-right:5px;}
+#sear_cont .con_left ul li a{ color:#666666;}
+#sear_cont .con_right{ float:right; width:704px; font-size:12px;}
+#sear_cont .con_right .rt_dh{ background:url(../images/dh_bg.jpg) repeat-x; width:704px; line-height:25px; font-size:12px; color:#006699; border-bottom:1px solid #D5D5D5; height:25px;}
+#sear_cont .con_right .rt_dh span{ background:url(../images/joom.gif) no-repeat; height:14px; padding-left:20px; margin-left:10px; margin-top:5px;float:left; line-height:18px;}
+#sear_cont .con_right table#out{ margin:8px; width:687px; display:inline;}
+#sear_cont .con_right table#out table{ margin:0px; padding:0px; width:100%;}
+#sear_cont .con_right th{ text-align:center; border:1px solid #E6E6E6; background:url(../images/th_bg.jpg) repeat-x; height:20px;}
+#sear_cont .con_right td{ line-height:24px; text-align:center;}
+#sear_cont .con_right td#nx{ color:#878787; text-align:left;}
+#sear_cont .con_right td#ms{ color:#666666; text-align:left;}
+#sear_cont .con_right td#ms a{color:#666666;}
+#sear_cont .con_right td#ms a:hover{ text-decoration:none;}
+#sear_cont .con_right td a#title{ color:#0063FC; font-weight:800;}
+#sear_cont .con_right td a{ color:#0179E7;}
+#sear_cont .con_right #xian{ border-bottom:1px dashed #686868; height:5px;}
+.digg {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; MARGIN: 3px; PADDING-TOP: 3px; text-align:right; width:auto; float:none;}
+.digg A {
+	BORDER-RIGHT: #aaaadd 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #aaaadd 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; MARGIN: 2px; BORDER-LEFT: #aaaadd 1px solid; COLOR: #000099; PADDING-TOP: 2px; BORDER-BOTTOM: #aaaadd 1px solid; TEXT-DECORATION: none;
+}
+.digg A:hover {
+	BORDER-RIGHT: #000099 1px solid; BORDER-TOP: #000099 1px solid; BORDER-LEFT: #000099 1px solid; COLOR: #000; BORDER-BOTTOM: #000099 1px solid;
+}
+.digg A:active {
+	BORDER-RIGHT: #000099 1px solid; BORDER-TOP: #000099 1px solid; BORDER-LEFT: #000099 1px solid; COLOR: #000; BORDER-BOTTOM: #000099 1px solid;
+}
+.digg SPAN.current {
+	BORDER-RIGHT: #000099 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #000099 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; MARGIN: 2px; BORDER-LEFT: #000099 1px solid; COLOR: #fff; PADDING-TOP: 2px; BORDER-BOTTOM: #000099 1px solid; BACKGROUND-COLOR: #000099;
+}
+.digg SPAN.disabled {
+	BORDER-RIGHT: #eee 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #eee 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; MARGIN: 2px; BORDER-LEFT: #eee 1px solid; COLOR: #ddd; PADDING-TOP: 2px; BORDER-BOTTOM: #eee 1px solid;
+}
+ul#zw,ul#xx{ width:90%;height:auto; float:left; margin:20px 30px; display:inline; font-size:12px;}
+ul#zw li,ul#xx li{ width:50%; float:left; line-height:24px;}
+ul#xx{ width:60%;  font-weight:800;}
+ul#xx li{ width:100%;}
+ .pic img{ border:1px solid #4A1802; padding:5px; margin-top:40px;}
+p.dh{ width:90%; border-bottom:1px solid #D5D5D5; float:left;margin:0px 30px 10px 20px; display:inline;}
+p.text{ clear:left; border:0px; width:91%; margin:5px auto; line-height:20px;}
+p.dh span{ width:auto; padding:0px 10px; line-height:25px;border:1px solid #D5D5D5; float:left; border-bottom:0px; font-size:12px; font-weight:800; margin-left:10px; }
+.js{ width:90%;}
+#page{ clear:both;color:#265783; text-align:center; margin:10px auto; font-weight:800; float:left;width:580px;}
+#page a{color:#265783; margin:0px 10px;}

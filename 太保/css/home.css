@@ -1,0 +1,56 @@
+@charset "utf-8";
+/***
+ *	朱白英
+ *	创建时间2011-01-17 10;30
+ *  修改者xxx
+ *  ޸修改时间xxxxxxxxxx
+ ***/
+ /*---------- 超链接公用部分 ---------*/
+#blue{ color:#0099FF; font-weight:bold; font-size:10px; margin:0px 5px;}
+#biao{ color:#1971B8;}
+#orange{ color:#FF9900; font-weight:bold; font-size:10px; margin:0px 5px;}
+#green{ color:#5AB700;font-weight:bold; font-size:10px; margin:0px 5px;}
+#blue_tp{ color:#0099FF;font-size:12px; margin:0px auto;}
+#gray{color:#9B9B9B;}
+#tb_wap,#tb_header,#tb_footer{ width:1002px; height:auto;margin:0 auto;}
+/*---------- cont:begin ---------*/
+#tb_cont{ height:220px; width:924px;background:url(../images/con_bg.jpg) no-repeat; margin:10px auto 20px auto; padding-top:8px;}
+#tb_cont ul#news,ul#hit,ul#tp{border:1px solid #E4E4E4; border-top:0px; width:328px;  float:left;}
+#tb_cont ul#tp{width:262px; color:#404040; height:216px; overflow:hidden;_height:226px;}
+#tb_cont ul#tp li{ background:none;text-align:center;}
+#tb_cont ul#tp li span#title{ float:left;}
+#tb_cont ul#tp li form{text-align:left; color:#999900; float:left;}
+#tb_cont ul#tp li form span{ margin:10px 17px;display:inline; float:left; display:inline; height:20px;}
+#tb_cont ul#tp li form #but{margin:0 auto; width:50px; height:22px; background:#814F25; color:#FFFFFF; margin:10px auto 0px auto; border:1px solid #000000;}
+#tb_cont ul#tp li form p{ clear:both; width:90%; margin:10 auto 0px auto; border-top:1px dashed #CCCCCC; height:30px; text-align:center;}
+#tb_cont ul#tp li form p a{margin-top:10px;_margin-top:-20px; }
+/*---------- li:公用部分 ---------*/
+#tb_cont li{ line-height:24px; width:95%; font-size:12px; margin:0 auto; color:#9B9B9B;text-align:right; background:url(../images/ul_bg.jpg) no-repeat; padding-left:5px; height:24px;}
+#tb_cont li a{ float:left;}
+#tb_cont li#img{background:none; text-align:left;}
+#tb_cont li#herf a{ float:none;}
+/*---------- footer:begin ---------*/
+#tb_footer{ clear:both;border-top:1px solid #E6E6E6; font-size:12px; color:#999999; line-height:24px; padding:10 0px;}
+#tb_footer .left{ width:30%; float:left; margin:0px 30px; display:inline;}
+#tb_footer .right{ width:50%; float:right; text-align:right; margin-right:30px;}
+/*---------- list.css:begin ---------*/
+#list_cont{ width:890px; margin:10px auto; height:auto;}
+#list_cont .left{float:left; width:188px;}
+#list_cont .left ul{ width:100%; margin-bottom:30px;}
+#list_cont .left ul li#dh{ background:url(../images/list_dh.jpg) no-repeat; width:185px; height:25px;}
+#list_cont .left ul li{ border-bottom:1px solid #EAEAEA; height:30px; line-height:30px; text-align:center;}
+#list_cont .left ul li a{ color:#9F9F9F;}
+#list_cont .right{float:right; width:657px; font-size:13px;color:#A7A7A7;}
+#list_cont .right p{ width:657px;}
+#list_cont .right p a{ margin:5px 10px; font-weight:800;}
+#list_cont .right #top{ border:0px;}
+#list_cont .right  table{margin-bottom:30px; line-height:30px;}
+#list_cont .right  table tr{ border-bottom:1px solid #E3E3E3; line-height:24px;}
+#list_cont .right  table tr a{ color:#A7A7A7;}
+#list_cont .right  #page{ margin:30px auto;color:#989898; text-align:center;}
+#list_cont .right  #page a{ color:#989898;padding:0px 10px;}
+#list_cont .right  #page a#pre,#list_cont .right  #page a#next{ background:url(../images/pre.jpg) no-repeat; height:14px;padding:0px 20px;}
+#list_cont .right  #page a#next{ background:url(../images/next.jpg) no-repeat;}
+#list_cont .right  #page a#first,#list_cont .right  #page a#last{ background:url(../images/first.jpg) no-repeat; height:14px;padding:0px 15px;}
+#list_cont .right  #page a#last{ background:url(../images/last.jpg) no-repeat;}
+

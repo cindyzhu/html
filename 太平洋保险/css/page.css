@@ -1,0 +1,57 @@
+@charset "utf-8";
+/***
+ *	朱白英
+ *	创建时间2010-11-19 10;56
+ *  修改者xxx
+ *  ޸修改时间xxxxxxxxxx
+ ***/
+/*---------- goods : 中间部分 ---------*/
+#page_cont{ width:978px; margin:0 auto; border:1px #E6E5E5 solid; height:530px;}
+/*---------- goods : 左侧部分 ---------*/
+#page_cont #goods_left{ width:713px; font-size:12px; margin-left:10px; margin-top:5px;height:auto; float:left; display:inline;}
+#page_cont #goods_left #tag{ background:url(../images/goods_ico.png) 0px 0px no-repeat; width:700px; height:25px; padding-left:15px;}
+#page_cont #goods_left #tag span{ float:left;}
+#page_cont form{float:right; width:240px;}
+#page_cont #goods_left #tag form input,select{ width:142px; border:1px solid #ADADAD; line-height:23px; color:#B1B1B1; height:23px; float:left; } 
+#page_cont #goods_left #tag form select{ width:auto; float:left; margin-right:5px; display:inline; height:25px;}
+#page_cont #goods_left #tag form #sub{ background:url(../images/goods_ico.png) 0px -29px; width:48px; height:25px; border:0px; margin-left:5px;}
+#page_cont #goods_left dl{ width:225px; height:96px; margin:10px 5px; float:left; display:inline;}
+#page_cont #goods_left dt{ width:122px; height:92px; float:left; border:1px solid #E0DFDF; padding:3px; background:url(../images/dt_bg.jpg) repeat-x;_padding:3px 3px 0px 3px;}
+#page_cont #goods_left dt img{ border:1px solid #DDDDDD; margin:0px;}
+#page_cont #goods_left dd{ float:right;}
+#page_cont #goods_left dd ul{width:90px; line-height:18px; padding:5px 0px;}
+#page_cont #goods_left dd ul li#orange{ color:#FF6A30;#027FFF}
+#page_cont #goods_left dd ul li#blue{ color:#027FFF; }
+#page_cont #goods_left dd ul li#zoom{ background:url(../images/goods_ico.png) 0px -54px; height:14px;  padding-left:15px;}
+#page_cont #goods_left dd ul li#zoom a{color:#085998; cursor:pointer;}
+/*---------- goods : 右侧部分 ---------*/
+#page_cont #goods_right{ width:240px;float:right; height:auto; margin-top:5px;}
+#page_cont #goods_right .rem_goods{ width:240px; height:auto; float:right; margin-bottom:5px;}
+#page_cont #goods_right .rem_goods p{ background:url(../images/goods_ico.png) 0px -71px no-repeat; width:209px; height:17px; padding-left:28px; padding-top:11px;color:#DC2557; font-size:13px; font-weight:800;}
+#page_cont #goods_right .rem_goods p span{ float:left;}
+#page_cont #goods_right .rem_goods p a{ float:right;color:#333333;font-weight:normal; margin-right:10px; border:1px solid #E3E3E3; width:26px; padding:3px 5px; margin-top:-6px; background:#FFFFFF; display:inline;}
+#page_cont #goods_right .rem_goods .rem_cont{width:235px; border:1px solid #E1E1E1;  float:left; border-top:0px; text-align:center;}
+#page_cont #goods_right .rem_goods .rem_cont ul{ width:105px; float:left;margin:5px 5px 2px 7px; display:inline;}
+#page_cont #goods_right .rem_goods .rem_cont ul li{text-align:center;}
+#page_cont #goods_right .rem_goods .rem_cont ul li#pic{ width:94px; height:74px; border:1px solid #C5C5C6; padding:4px; float:left;}
+#page_cont #goods_right .rem_goods .rem_cont ul li#pic img{ border:1px solid #E8E9E9;}
+#page_cont #goods_right .rem_goods .rem_cont ul li a{ font-size:12px; color:#404040; line-height:20px;}
+/*---------- telephone.css ---------*/
+#tel_cont{ width:980px; margin:3px auto;height:auto;}
+#tel_left{ width:230px; border:1px solid #E9E9E9;float:left;height:700px;}
+#tel_right{ width:740px; border:1px solid #E9E9E9; float:right;background:url(../images/tel_bg.jpg) repeat-x; height:700px;}
+#tel_left h3{ background:url(../images/tele_top.jpg) repeat-x; height:36px; line-height:36px; font-size:12px; color:#404040; padding-left:10px; width:220px; font-weight:800;}
+#tel_left ul{ font-size:12px; color:#878787; width:90%; margin:0 auto;}
+#tel_left ul li{border-bottom:1px dashed #CCCCCC; background:url(../images/goods_ico.png) 0px -104px; padding-left:15px; line-height:28px; cursor:pointer;}
+#tel_left ul li a{ width:190px; }
+#tel_left ul li span{ float:right; background:url(../images/goods_ico.png) 0px -131px no-repeat; width:9px; height:6px; margin-top:0px;_margin-top:-15px;}
+#tel_left ul li#ative{background:url(../images/goods_ico.png) 0px -148px no-repeat #F9F9F9; }
+#tel_left ul li#ative a{color:#0184D7; font-weight:800;}
+#tel_left ul li span#ac{background:url(../images/goods_ico.png) 0px -185px no-repeat;height:13px; margin-top:5px;_margin-top:-20px;}
+#tel_right form{ float:right;width:220px; height:25px;display:inline; margin:5px;}
+#tel_right form input{ border:1px solid #B8B9B8; color:#B1B1B1;line-height:20px; height:20px;}
+#tel_right form #but{background:url(../images/goods_ico.png) -61px -29px no-repeat; width:47px; height:25px; border:0px;}
+#tel_right h3{ background:url(../images/goods_ico.png) -228px -186px no-repeat; color:#484848; font-size:12px; font-weight:800; padding-left:15px; margin:10px auto 0px auto;width:95%; border-bottom:1px solid #E2E2E2; line-height:18px; clear:left; text-align:left;}
+#tel_right #tele{ width:100%; text-align:center;}
+#tel_right #tele a{ margin:5px 10px; font-size:12px; color:#0460A3; line-height:24px;display:block; width:70px; height:24px; float:left;}
+

@@ -1,0 +1,52 @@
+@charset "utf-8";
+/***
+ *	朱白英
+ *	创建时间2010-01-10 10;56
+ *  修改者xxx
+ *  ޸修改时间xxxxxxxxxx
+ ***/
+/*---------- list : 中间部分 ---------*/
+#news{ width:980px; margin:5px auto 100px auto; height:auto;}
+#news_left{ width:700px; border:1px solid #DDDEDE; height:auto; float:left; background:url(../images/list_bg.jpg) repeat-x; padding-top:5px; display:inline;float: left;  position:relative;}
+#news_left span#tag{ background:url(../images/biao.jpg) 0px 0px no-repeat; height:11px; padding-left:15px; font-size:12px; margin:10px 0px 0px 10px;}
+#news_left #news_list{ width:90%; margin:10px auto; border-bottom:1px dashed #A2A1A2;}
+#news_left #news_list #title{ clear:both; font-size:12px; padding-left:10px; color:#0263A7;}
+#news_left p{font-size:12px; color:#A2A1A2; margin:5px auto; line-height:20px;}
+#news_right{ width:260px; border:1px solid #DDDEDE; height:auto; float:right;position:relative;  margin-left:-260px;}
+#news_right .pic_news{background:url(../images/news_cont3.png) no-repeat; width:258px; height:265px; padding:8px 0px 0px 5px;}
+#news_right h3{ font-size:13px; font-weight:800; margin-bottom:15px;}
+#news_right ul#pic{float:left; width:98px;float:left; margin:12px;_margin:0px 12px; height:90px; display:inline;}
+#news_right ul#pic li{width:92px; height:74px; border:1px solid #E2E2E2; float:left; padding:2px; text-align:center;}
+#news_right ul#pic li a{font-size:12px; line-height:30px; text-align:center; }
+#news_right ul#pic li#news_title{ height:10px; border:0px; padding:0px; margin:0px; }
+#news_right .rem{ background:url(../images/rem_bg.jpg) repeat-x; height:32px; width:255px;padding:8px 0px 0px 5px;}
+#news_right ul#rem_art{ width:95%; margin:0px auto;text-align:center;}
+#news_right ul#rem_art li{ color:#0F508B;border-bottom:1px dashed #D9D9D9; line-height:30px;width:95%; text-align:left;}
+#news_right ul#rem_art li a{ color:#0F508B; font-size:12px;}
+/*---------- cont : 中间部分 ---------*/
+h2{ font-size:13px; color:#404040;  text-align:center; font-weight:800; line-height:24px;}
+span#author{ text-align:center; color:#757575; font-size:12px; display:block;}
+p#dd{ width:90%; margin:5px auto; color:#6A6A6A; line-height:20px; border:1px solid #E8E9E8; padding:5px;}
+p#cont{ width:95%; margin:0 auto; text-indent:24px; line-height:24px;}
+p#page{ text-align:center; margin-right:20px; clear:left;}
+p#page a{ border:1px solid #C8C7C7; color:#0B3B8C; padding:2px 8px; margin:2px;}
+p#page a:hover{background-color:#7E96BE;border:1px solid #5A6F8D; text-decoration:none; color:#FFFFFF;}
+/*---------- compny_cont:---------*/
+#list{ width:978px;margin:5px auto;}
+#list_left{ background:url(../images/con_leftbg.jpg) repeat-y; height:500px; width:213px; border:1px solid #ECECED; float:left; padding-top:10px; display:inline;} 
+#list_left ul#con_dh{ width:163px; text-align:right; padding-right:50px; line-height:30px; display:inline;}
+#list_left ul#con_dh li{ width:160px; font-size:18px; color:#0164A8; height:36px;}
+#list_left ul#con_dh #xian{ background:url(../images/xian.jpg) no-repeat; height:2px; width:190px;}
+#list_left ul#con_dh li a{ font-size:13px; font-weight:0; color:#0164A8;}
+#list_right{ width:756px; background:url(../images/list_right.jpg) repeat-x; height:510px; float:right; border:1px solid #DBDADA; font-size:12px;}
+#list_right #dq{ font-size:12px; margin:10px 10px 0px 10px; border-bottom:1px solid #EBEAEA; line-height:26px;color:#0164A8;}
+#list_right #dq a{ color:#0164A8;}
+#list_right ul#com_news{width:716px; margin:0 auto 10px auto; text-align:center; padding-left:20px; }
+#list_right ul#com_news li{width:120px; text-align:center; margin:10px; float:left;display:inline;}
+#list_right ul#com_news li img{ border:1px solid #CCCCCC;}
+#list_right ul#com_news li  a{ line-height:24px;}
+
+/*新闻列表*/
+#list_right ul#list_news{width:716px; margin:0 auto 10px auto; text-align:center; padding-left:20px; }
+#list_right ul#list_news li{width:95%; text-align:right; float:left; border-bottom:1px dashed #EAEAEA;}
+#list_right ul#list_news li  a{ line-height:30px; float:left;}

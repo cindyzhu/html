@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+#job_cont a{ color:#7D7D7D;}
+#job_cont a:hover{ color:#B00400;}
+#job_header,#job_cont,#job_footer{ width:960px; margin:0 auto; font-size:12px;}
+#job_cont{ margin-top:5px; width:950px; padding:0px 5px;}
+#job_cont .top_left{ float:left; width:454px;}
+#bg{ background:url(../images/job_ico.png);}
+#job_cont .top_left .jb_login{ background-position:-1px -1px; width:252px; height:154px; float:left; overflow:hidden;}
+#job_cont .top_left .jb_login form{width:250px; margin:30px 0px 0px 20px; }
+#job_cont .top_left .jb_login form span{ float:left; width:50px;}
+#job_cont .top_left .jb_login form input{ float:left; border:1px solid #999999; height:20px; width:100px;}
+#job_cont .top_left .jb_login form input#rad{ width:auto; border:0px; height:auto;margin-top:10px; _margin-top:5px;}
+#job_cont .top_left .jb_login dl{font-size:12px; line-height:30px;}
+#job_cont .top_left .jb_login dl dt{ width:20%; float:left;}
+#job_cont .top_left .jb_login dl dd{ width:64%; float:left;}
+#job_cont .top_left .jb_login dl#login dt{ background:url(../images/dl_bg.gif) no-repeat; width:67px; height:69px; padding:5px 5px 5px 5px; margin-top:6px;}
+#job_cont .top_left .jb_login dl#login dt img{ border:1px solid #E3E3E1;}
+#job_cont .top_left .jb_login dl#login dd{ line-height:20px;}
+#job_cont .top_left .jb_login dl#login dd a { margin:0px; color:#3399FF;} 
+#job_cont .top_left .jb_login .lj{width:200px; clear:both; line-height:24px;}
+#job_cont .top_left .jb_login .lj a{color:#FF6600; margin-left:10px; font-weight:800;}
+#job_cont .top_left .jb_login #wz{ margin-left:10px;}
+#job_cont .top_left .jb_login dd#bot{ width:100%;}
+#job_cont .top_left .jb_login dd a{ color:#FF7300; margin-left:10px;} 
+#job_cont .top_left .jb_login #sub{ background:url(../images/job_ico.png) 0px -154px; width:48px; height:44px; border:0px; float:right;margin-top:-25px; position:relative;}
+#job_cont .top_left .jb_zc{ width:170px; height:111px; background-position:-258px -1px; float:left; padding:40px 0px 0px 20px; margin-left:6px; display:inline;}
+#job_cont .zhc,.zxgs{ width:448px; float:left; margin-bottom:5px; display:inline;}
+#job_cont  .zhc .zc_top,.zxgs .zc_top{background-position:0px -201px; width:428px; height:28px; font-size:12px; padding:0px 10px; line-height:30px; color:#333333;}
+#job_cont .zhc .zc_top span,.zxgs .zc_top span{color:#B00400; line-height:30px; float:left;}
+#job_cont .zhc .zc_top  a,.zxgs  .zc_top  a{float:right;}
+#job_cont .zhc .txt p{width:420px; text-align:center;}
+#job_cont .zhc .txt p span{ float:none; display:block;}
+#job_cont .zhc .txt p #hot{ font-weight:800;}
+#job_cont .zhc .txt p #txt_xx{width:420px;text-align:left; line-height:20px; text-indent:24px; color:#0066CC;}
+#job_cont .zhc .txt p #txt_xx a{ float:right; margin-right:30px; color:#FF6600; display:inline;}
+#job_cont .zxgs{ width:468px;float:left; margin:0px; display:inline;}
+#job_cont .zxgs2{width:305px; margin:5px 0px;float:left;display:inline;}
+#job_cont .zxgs .zc_top{ width:455px; background-position:0px -334px; background-repeat:no-repeat; overflow:hidden;}
+#zc_topul{width:300px; margin-right:5px; overflow:hidden; height:20px;background:url(../images/job_ico.png) -1px -455px no-repeat; padding:10px 0px 0px 10px;}
+#zc_topul span{ color:#CC0000;}
+#zc_topul h2{float:left;}
+#job_cont .zc_top h2{ float:left;}
+#margin_0{ float:right;}
+#green{ color:#008E0D;}
+#org{ color:#EB6400;}
+#job_cont ul.txt,ul.img{ width:436px; height:auto;border-left:1px solid #E5E5E5; border-right:1px solid #E5E5E5; padding:5px; float:left;display:inline; margin-top:-2px; }
+#job_cont #zsgs_ul{ width:460px; margin:0px;}
+#job_cont #zsgs_ul li{ padding-left:0px; line-height:24px;text-align:left;}
+#job_cont #zsgs_ul li span{ float:left; margin-left:5px; display:inline;}
+#job_cont #zsgs_ul li h2{ float:left;color:#FF8A00;}
+
+#job_cont #zsgs_ul2{width:298px;  border-bottom:1px solid #E5E5E5; overflow:hidden; height:155px;}
+#job_cont #zsgs_ul2 li{ padding-left:0px; line-height:24px;text-align:left; width:300px;}
+#job_cont #zsgs_ul2 li span{ float:left; margin-left:5px; display:inline;}
+#job_cont #zsgs_ul2 li h2{ float:left;color:#FF8A00;}
+
+#job_cont #qzgl_ul{ width:298px; float:left;border-bottom:1px solid #E5E5E5;overflow:hidden; height:155px;}
+#job_cont #qzgl_ul li{ width:295px;}
+#job_cont ul.txt li{ background-position:-444px -158px; width:416px;  font-size:12px; padding-left:10px; background-repeat:no-repeat; margin:0 auto; line-height:24px; float:left; display:inline;}
+#job_cont #zc a{float:left;}
+#job_cont #qzgl_ul a{ float:left;}
+#job_cont ul.txt li span{float:right;}
+#job_cont ul.txt li a#blue{ color:#6468FF; margin-left:10px;}
+
+#job_cont ul.img li{ width:137px; height:64px; border:1px solid #E8E8E8; margin:3px 6px; float:left; text-align:center; display:inline; padding:2px;}
+#job_cont ul.img li.xy{ border:0px; width:145px; height:55px; background-position:-1px -377px; padding:5px 0px; margin:6px 4px; }
+#job_cont ul.img li.xy a{ margin-left:5px;}
+
+#job_cont .zc_botoom,.zcgs_botoom{ background-position:0px -233px; width:448px; height:4px; clear:both;float:left; overflow:hidden;}
+#job_cont .zcgs_botoom{background-position:0px -366px; width:475px;}
+
+#job_cont .top_right{ float:right;}
+#job_cont .top_right .search{ width:487px;float:left;}
+#job_cont .top_right .search ul{ width:100%; font-size:12px; float:left; }
+#job_cont .top_right .search ul li.active{ color:#FA831A; font-weight:800;padding:0px 5px;width:53px; background:url(../images/job_ico.png) -67px -161px no-repeat; text-align:center;}
+#job_cont .top_right .search ul li{ width:auto; float:left; width:63px; line-height:25px; cursor:pointer; height:30px; margin-right:5px; display:inline;}
+#job_cont .top_right .search ul li#sear{ float:right; width:auto;}
+#job_cont .top_right .search ul li#sear a{ margin:0px 5px;}
+#job_cont .top_right .search form{ float:left;}
+#job_cont .top_right .search form input{width:310px; height:23px; border:1px solid #FF9F02; margin-top:-5px; background:url(../images/job_ico.png) -440 -251px no-repeat; float:left; margin-right:3px; display:inline; position:relative; line-height:23px;}
+#job_cont .top_right .search form input#diqu_so,input#soso{background:url(../images/job_ico.png) -144px -162px no-repeat; width:84px; height:32px; border:0px; margin-top:-5px; display:inline; margin-left:-2px;}
+#job_cont .top_right .search form input#soso{ background-position:-234px -162px; width:83px; height:30px; border:0px; margin-top:-6px;}
+#job_cont .top_right .dq{ clear:both;width:475px; border:1px solid #D6D6D6; padding:5px; font-size:12px;height:80px;}
+#job_cont .top_right .dq h2{color:#3C92E6;font-weight:800;width:470px; border-bottom:1px dashed #C3C3C3; line-height:24px; padding-left:5px;} 
+#job_cont .top_right .dq ul{ width:100%; float:left; }
+#job_cont .top_right .dq ul li{ float:left; margin:5px 7px 5px 5px; display:inline;}
+#job_cont .top_right .dq ul li a{ color:#FF9900;}
+#job_cont .top_right .mq{ width:492px; margin-top:5px;}
+#job_cont .top_right .mq h2{ background-position:0px -277px; height:29px; line-height:29px; color:#B00400; font-weight:800; padding-left:10px;}
+#job_cont .top_right .mq ul{ width:490px; border:1px solid #E5E5E5; margin-top:-1px; float:left; text-align:center; border-bottom:0;}
+#job_cont .top_right .mq ul li{ width:150px; height:60px; border:1px solid #DBDBDB; margin:6px 4px 3px 6px; float:left; display:inline;}
+#job_cont .top_right .mq .mq_bom{ background-position:0px -321px; height:7px; clear:both; overflow:hidden;}
+#job_cont .ad{ clear:both; width:960px; margin:5px auto;}
+#job_cont .zxzp{ width:950px; border:1px solid #E7E7E7; float:left; padding-bottom:5px;}
+#job_cont .zxzp h2{ background:url(../images/zxdh_bg.jpg) repeat-x; height:28px; line-height:28px; padding-left:10px; color:#FF5F19; font-weight:800;}
+#job_cont .zxzp  ul{width:290px;_width:277px; height:60px; border:1px solid #E6E6E6; margin:5px 5px 5px 8px; padding:5px; float:left; display:inline;_margin:5px 5px 5px 5px;}
+#job_cont .zxzp  ul li{ width:100%; line-height:20px;}
+#job_cont .zxzp  ul li a{ color:#000000; margin-left:5px;font-size:13px; display:inline;}
+#job_cont .zxzp  ul li span{ color:#FE8800;}
+#job_cont .zxzp  ul li#blue{ color:#3C76F9; } 
+#job_cont .zxzp  ul li#orange{ color:#FF552D;}
+

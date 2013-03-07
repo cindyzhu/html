@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background:url(../images/body_bg.jpg) repeat-x; font-size:12px; color:#949494; margin:0px; padding:0px;}
+header,section,footer{ width:980px; margin:0 auto;}
+a#dh{ width:118px; float:left; color:#F1EFED; font-weight:800;  text-align:center; font-size:13px; line-height:25px;}
+a#dh:hover{background:url(../images/a_hover.gif) no-repeat; width:118px; height:25px; color:#344B7D; text-decoration:none; font-size:14px; line-height:28px;}
+/*************************header.css*********************/
+header{ margin-top:24px; }
+h1.logo{ float:left;}
+nav{ background:url(../images/nav_bg.gif) repeat-x; height:28px; float:right; width:625px; margin:10px 64px 0px 0px; display:inline;  padding-top:10px;}
+nav span#left{ background:url(../images/nav_left.gif) no-repeat; width:17px; height:38px; float:left; margin-top:-10px;}
+nav span#right{ background:url(../images/nav_right.gif) no-repeat; width:15px; height:38px; float:right;margin-top:-10px;}
+.pic{ background:url(../images/banner.jpg) no-repeat; width:980px; height:310px; clear:both;}
+/*********************cont.css*************************/
+section{ background:url(../images/sen_bg.jpg) repeat-x; padding-top:26px; height:220px;background:#FFFFFF;}
+.cont{ background:url(../images/iphone.jpg) no-repeat; width:321px; height:205px; float:left; margin:0px 5px; display:inline;}
+.cont .ul_right{ width:240px; float:right;margin:6px 5px 0px 0px; display:inline;}
+.cont .ul_right h2{ float:left; font-size:18px; color:#4670AE; font-weight:800; margin-left:5px; display:inline;}
+.cont .ul_right  a#gd{ float:right; color:#47B0C3; margin-top:5px; font-weight:800;}
+article{ clear:left; padding-top:10px;line-height:24px; text-indent:24px; color:#BBBBBB; width:99%; margin-left:5px;}
+article a#title{ color:#4670AE; display:block;text-align:center; text-indent:0px; line-height:24px;}
+article a{ color:#FF0000; margin-left:5px;}
+ul{ margin:5px; background:url(../images/ul.gif) no-repeat; padding-left:5px; line-height:22px;}
+
+#androi{ background:url(../images/and.jpg); width:319px; height:209px; margin-top:-5px;}
+#ipad{background:url(../images/ipad.jpg); width:319px; height:205px; margin:0px;margin-top:-5px; }
+/********************footer.css************************/
+footer{ clear:both;background:url(../images/footer.jpg) repeat-x; height:81px; width:100%; padding-top:67px;}
+.copy{ width:980px; background:url(../images/copy.jpg) repeat-x; height:81px; margin:0px auto 0px auto; text-align:center; color:#848484; line-height:81px; }
+.copy .cp{ width:920px; float:left; text-align:center;}
+.copy #cp_left{ background:url(../images/copy_left.jpg) no-repeat; width:17px; height:81px; float:left;}
+.copy #cp_right{ background:url(../images/copy_right.jpg) no-repeat; width:15px; height:81px; float:right;}

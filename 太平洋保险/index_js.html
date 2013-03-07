@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>太平洋保险--首页</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/index.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+/*顶部滚动秀*/
+#zzjs_net {float:left;overflow:hidden;height:228px;background:#E0E0E0;padding:0px;width:248px; }
+#www_zzjs_net {float:left;text-align:left;font-size:12px;font-family: "宋体";width:248px;}
+#www_zzjs_net ul {list-style:none; padding:0; margin:0;}
+#www_zzjs_net li {line-height:18px;color:#FF0000;}
+#www_zzjs_net li a{color:#FF0000; text-decoration:none;}
+-->
+</style>
+
+</head>
+<body>
+
+<!--以上是header-->
+<div id="wrap">
+  <div class="index_main_top">
+    <div id="banner" class="left"><a href="#" title="#"><img src="images/ad1.jpg" /></a></div>
+    <div id="zzjs_net"> 
+        <div class="index_m_t_right right" id="www_zzjs_net">
+          <h3>愿景</h3>
+          <p>这里是愿景的文字说明，这里是文字说明明，这里是文字说明明，这里是</p>
+          <h3>愿景</h3>
+          <p>这里是愿景的文字说明，这里是文字说明明，这里是文字说明明，这里是</p>
+          <h3>愿景</h3>
+          <p>这里是愿景的文字说明，这里是文字说明明，这里是文字说明明，这里是</p>
+          <h3>愿景</h3>
+          <p>这里是愿景的文字说明，这里是文字说明明，这里是文字说明明，这里是</p>
+        </div>
+    </div>
+    
+  </div>
+  <script type="text/javascript" language="javascript">
+<!--
+//以下参数请勿修改
+try{
+var marqueesHeight = 228; //高度
+var stopscroll     = false;
+var scrollElem = document.getElementById("zzjs_net");
+with(scrollElem){
+style.width     = 248;//宽度
+style.height    = marqueesHeight;
+style.overflow  = 'hidden';
+noWrap          = true;
+}//
+scrollElem.onmouseover = new   Function('stopscroll = true');
+scrollElem.onmouseout  = new   Function('stopscroll = false');
+var preTop     = 0;
+var currentTop = 0;
+var stoptime   = 0;
+var leftElem =   document.getElementById("www_zzjs_net");
+scrollElem.appendChild(leftElem.cloneNode(true));
+init_srolltext();
+}catch(e) {}
+function init_srolltext(){
+scrollElem.scrollTop = 0;
+setInterval('scrollUp()', 15); //滚动速度
+}//
+function scrollUp(){
+if(stopscroll) return;
+currentTop += 1;
+if(currentTop == 56) { //滚动距离
+stoptime += 1;
+currentTop -= 1;
+if(stoptime == 220) { //停顿时间
+currentTop = 0;
+stoptime = 0;
+}
+}else{
+preTop = scrollElem.scrollTop;
+scrollElem.scrollTop += 1;
+if(preTop == scrollElem.scrollTop){
+scrollElem.scrollTop = 0;
+scrollElem.scrollTop += 1;
+}
+}
+}//
+//-->
+</script>
+  
+</div>
+<!--以下是footer-->
+
+</body>
+</html>
